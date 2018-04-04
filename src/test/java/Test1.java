@@ -23,6 +23,12 @@ public class Test1 {
         for (Users users:list) {
 
             System.out.println(users);
+
+            System.out.println(users.getName());
+
+
+
+
         }
 
         transaction.commit();
